@@ -15,7 +15,7 @@ namespace SimpleApp.Controllers
         public ProductsController(AppDbContext db) { _db = db; }
 
         [HttpGet]
-        public IActionResult Get() => Ok(_db.Products.ToList());
+        public IActionResult Index() => Ok(_db.Products.ToList());
 
         [HttpPost]
         public IActionResult Post(Product p)
