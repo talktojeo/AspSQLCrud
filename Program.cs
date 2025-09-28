@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Builder; // Add this line
 using Microsoft.EntityFrameworkCore;
 using SimpleApp.Data;
 
