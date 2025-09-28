@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using SimpleAzureApp.Data;
+using SimpleApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
