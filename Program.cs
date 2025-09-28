@@ -1,6 +1,10 @@
-using Microsoft.AspNetCore.Builder; // Add this line
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using SimpleApp.Data;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.AspNetCore.Hosting; // Add this line
 
 var builder = WebApplication.CreateBuilder(args);
 

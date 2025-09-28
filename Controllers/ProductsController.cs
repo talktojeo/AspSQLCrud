@@ -1,7 +1,9 @@
-
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using SimpleApp.Data;
 using SimpleApp.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 namespace SimpleApp.Controllers
 {
